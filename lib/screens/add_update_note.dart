@@ -52,7 +52,7 @@ class _AddUpdateNoteState extends State<AddUpdateNote> {
               onSelectedColor: (value) {
                 setState(() {
                   _selectedColor = value.value;
-                  print(_selectedColor);
+                  // print(_selectedColor);
                 });
               },
             ),
