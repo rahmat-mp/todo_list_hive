@@ -1,5 +1,12 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:hive/hive.dart';
+import 'package:todo_list_hive/constants/colors.dart';
 import 'package:todo_list_hive/hive/boxes.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:todo_list_hive/model/note.dart';
 import 'package:todo_list_hive/screens/home.dart';
 
 void main() async {
